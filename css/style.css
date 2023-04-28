@@ -46,6 +46,7 @@ body {
   font-weight: 400;
 }
 /* custom scrollbar */
+/* -webkit-scrollbars in web browsers that use the WebKit engine (such as Safari and Chrome) */
 ::-webkit-scrollbar {
   width: 0.625rem;
 }
@@ -105,6 +106,7 @@ h4 {
   --moz-transition: all.4s ease-out 0;
   transition: all.4s ease-out 0s;
 }
+/* --moz-transition Mozilla Firefox is a CSS property that was used to define transition effects */
 .white-btn {
   padding: 0.65rem 1.875rem;
   line-height: 25px;
